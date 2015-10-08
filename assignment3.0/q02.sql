@@ -1,0 +1,1 @@
+SELECT DISTINCT fldDays,fldStart,fldStop FROM tblSections JOIN tblTeachers ON pmkNetId = fnkTeacherNetId WHERE tblTeachers.fldFirstName ="Robert Raymond" AND tblTeachers.fldLastName ="Snapp" ORDER BY fldStart

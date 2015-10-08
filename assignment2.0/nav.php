@@ -19,7 +19,7 @@
         if ($path_parts['filename'] == "sitemap") {
             print '<li class="activePage">Sitemap</li>';
         } else {
-            print '<li><a href="sitemap.php">Sitemap</a></li>';
+            print '<li><a href="../sitemap.php">Sitemap</a></li>';
         }
         
         ?>
